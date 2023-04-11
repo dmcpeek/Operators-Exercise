@@ -23,11 +23,10 @@
 
             int a= 17;
             int b = 4;
-            int quotient = a /= b;
+            int quotient = a / b;
             int remainder = a % b;
             if (a == 17 && b == 4)
-                Console.WriteLine($"{a} % {b} has a remainder of {remainder}");
-            Console.WriteLine($"{a} / {b} equals {quotient}");
+                Console.WriteLine($"{a} / {b} is {quotient} with a remainder of {remainder}");
 
             Console.WriteLine("----------------------------");
             Console.WriteLine("");
