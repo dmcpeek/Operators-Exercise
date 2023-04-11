@@ -29,8 +29,11 @@
                 Console.WriteLine($"{a} % {b} has a remainder of {remainder}");
             Console.WriteLine($"{a} / {b} equals {quotient}");
 
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("");
+
             ////Exercise 2
-            //Methods.AreaOfCircle();
+            Methods.AreaOfCircle();
 
         }
     }
